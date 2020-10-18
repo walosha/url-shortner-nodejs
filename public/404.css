@@ -1,42 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
 }
 
-html,
-body {
-  height: 100%;
+.page_404 img {
+  width: 100%;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #262626;
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
 }
 
-.not-found {
-  margin: 1rem 0;
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: normal;
+.four_zero_four_bg h1 {
+  font-size: 80px;
 }
 
-.go-home-link {
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  font-size: 1.5rem;
+.four_zero_four_bg h3 {
+  font-size: 80px;
 }
 
-.arrow {
-  margin-right: 1rem;
-  transition: transform 0.2s ease-in-out;
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
 }
-
-.go-home-link:hover .arrow {
-  transform: translateX(10px);
+.contant_box_404 {
+  margin-top: -50px;
 }
